@@ -9,3 +9,17 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+*.dm.md
+*.dm.jpeg
+*.dm.png
+*.dm.jpg
+*.dm.gif
+*.dm.webp
+*.dm.svg
+*.dm.ico
+*.dm.bmp
+*.dm.tiff
+*.dm.tif
+*.dm.heic
+*.dm.heif
