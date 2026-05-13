@@ -2,6 +2,7 @@
 
 **Formal family name:** House Veyrath  
 **Slang name:** the Riddle-Lords
+**Kingdom:** [[Lycaria]]
 
 House Veyrath keeps civilization’s fragile paperwork the way dragons keep hoards—with teeth you only notice when someone reaches carelessly. Genealogical tables scratched with marginalia, charters whose clauses braid across centuries, prophecy collections filed beside tax disputes, treaties whose true meaning wakes only under stress: theirs is a vault of riddles disguised as records.
 

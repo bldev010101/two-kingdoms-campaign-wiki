@@ -2,6 +2,7 @@
 
 **Formal family name:** House Kaelroth  
 **Slang name:** the Many-Heads
+**Kingdom:** [[Ballado]]
 
 House Kaelroth is seldom one story. Cadet branches sprout through marriage pacts, military colleges, clergy appointments, colonial ventures, merchant consortia—each limb with its own coat variant and its own grudges. A map of Kaelroth allegiance resembles a braid more than a tree: intertwined, thickened by argument, tightened by rivalry.
 

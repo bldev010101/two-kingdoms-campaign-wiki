@@ -2,6 +2,7 @@
 
 **Formal family name:** House Aurelian  
 **Slang name:** the Ashwings
+**Kingdom:** [[Lycaria]]
 
 House Aurelian treats flame as pedigree. Their chronicles read less like uninterrupted triumph than like disciplined resurrection: coups survived, castles lost, charters stripped, heirs scattered—and still the line returned, often sharper than before. Practical folk call it ruthless reinvention; Aurelians frequently call it design.
 
