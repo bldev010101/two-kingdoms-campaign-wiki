@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Houses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <nav aria-label="Campaign navigation">
+      <a href="index.html">Campaign Synopsis</a>
+      <ul>
+        <li><a href="houses.html" aria-current="page">Houses</a></li>
+        <li><a href="religions.html">Religions</a></li>
+        <li><a href="garrisons.html">Garrisons</a></li>
+        <li><a href="avatars.html">Avatars</a></li>
+        <li><a href="festival-of-blood.html">Festival of Blood</a></li>
+        <li><a href="downtrodden.html">Downtrodden</a></li>
+        <li><a href="fireholders.html">Fireholders</a></li>
+      </ul>
+    </nav>
+  <main>
+    <h1>Houses</h1>
+    <div class="house-flows">
+    <section class="house-flow-section house-flow-section-wide" aria-labelledby="ballado-heading">
+    <h2 id="ballado-heading">Ballado</h2>
+    <div class="house-flow house-flow-branched" role="img" aria-label="Tarrasque points to each of Manticore and Basilisk, Gorgon and Nightmare, and Wyvern. Those three groups each point to Hydra. Hydra points to Roc. Within the paired boxes, Basilisk points to Manticore and Nightmare points to Gorgon.">
+      <div class="house-flow-node house-flow-centered house-flow-red">Roc</div>
+      <div class="house-flow-arrow" aria-hidden="true">↑</div>
+      <div class="house-flow-node house-flow-centered">Hydra</div>
+      <svg class="house-flow-connectors" viewBox="0 0 600 90" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <marker id="hydra-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="currentColor" stroke-width="1.5" />
+          </marker>
+        </defs>
+        <g fill="none" stroke="currentColor" stroke-width="1.2" marker-end="url(#hydra-arrow)">
+          <path d="M 100 90 L 270 7" />
+          <path d="M 300 90 L 300 7" />
+          <path d="M 500 90 L 330 7" />
+        </g>
+      </svg>
+      <div class="house-flow-row">
+        <div class="house-flow-node">Manticore<span class="house-flow-inner-arrow" aria-hidden="true">↑</span>Basilisk</div>
+        <div class="house-flow-node">Gorgon<span class="house-flow-inner-arrow" aria-hidden="true">↑</span>Nightmare</div>
+        <div class="house-flow-node">Wyvern</div>
+      </div>
+      <svg class="house-flow-connectors" viewBox="0 0 600 90" preserveAspectRatio="none" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="1.2" marker-end="url(#hydra-arrow)">
+          <path d="M 270 90 L 100 7" />
+          <path d="M 300 90 L 300 7" />
+          <path d="M 330 90 L 500 7" />
+        </g>
+      </svg>
+      <div class="house-flow-node house-flow-centered">Tarrasque</div>
+    </div>
+    </section>
+    <section class="house-flow-section house-flow-section-wide" aria-labelledby="lyceria-heading">
+    <h2 id="lyceria-heading">Lyceria</h2>
+    <div class="house-flow house-flow-branched" role="img" aria-label="Purple Worm points to each of Chimera, Displacer Beast and Bullette, and Umberhulk and Owlbear. Those three groups each point to Phoenix. Phoenix points to Sphinx. Within the paired boxes, Bullette points to Displacer Beast and Owlbear points to Umberhulk.">
+      <div class="house-flow-node house-flow-centered house-flow-red">Sphinx</div>
+      <div class="house-flow-arrow" aria-hidden="true">↑</div>
+      <div class="house-flow-node house-flow-centered">Phoenix</div>
+      <svg class="house-flow-connectors" viewBox="0 0 600 90" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <marker id="phoenix-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="currentColor" stroke-width="1.5" />
+          </marker>
+        </defs>
+        <g fill="none" stroke="currentColor" stroke-width="1.2" marker-end="url(#phoenix-arrow)">
+          <path d="M 100 90 L 270 7" />
+          <path d="M 300 90 L 300 7" />
+          <path d="M 500 90 L 330 7" />
+        </g>
+      </svg>
+      <div class="house-flow-row">
+        <div class="house-flow-node">Chimera</div>
+        <div class="house-flow-node">Displacer Beast<span class="house-flow-inner-arrow" aria-hidden="true">↑</span>Bullette</div>
+        <div class="house-flow-node">Umberhulk<span class="house-flow-inner-arrow" aria-hidden="true">↑</span>Owlbear</div>
+      </div>
+      <svg class="house-flow-connectors" viewBox="0 0 600 90" preserveAspectRatio="none" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="1.2" marker-end="url(#phoenix-arrow)">
+          <path d="M 270 90 L 100 7" />
+          <path d="M 300 90 L 300 7" />
+          <path d="M 330 90 L 500 7" />
+        </g>
+      </svg>
+      <div class="house-flow-node house-flow-centered">Purple Worm</div>
+    </div>
+    </section>
+    </div>
+  </main>
+  </div>
+</body>
+</html>

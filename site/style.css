@@ -1,0 +1,88 @@
+:root { color-scheme: light; background: #f7f1e5; color: #302a23; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Bookman Old Style", "URW Bookman", "Bookman", "Georgia", serif; font-size: 18px; line-height: 1.75; }
+.layout { display: grid; grid-template-columns: 200px minmax(0, 760px); max-width: 1040px; margin: 0 auto; }
+nav { padding: 78px 20px 40px; align-self: start; position: sticky; top: 0; font-size: 16px; }
+nav a { color: inherit; text-decoration: none; text-underline-offset: 4px; }
+nav a:hover, nav a:focus-visible { text-decoration: underline; }
+nav a[aria-current="page"] { font-weight: bold; }
+nav > a { display: block; margin-bottom: 1.5rem; }
+nav ul { list-style: none; padding: 0; margin: 0; }
+nav li { margin: 0 0 0.6rem; }
+nav ul ul { padding-left: 1rem; margin-top: 0.6rem; }
+main { min-width: 0; padding: 72px 32px 96px; }
+h1, h2, h3 { line-height: 1.3; text-wrap: balance; }
+h1 { font-size: 2.1rem; margin: 0 0 2.5rem; }
+h2 { font-size: 1.45rem; margin: 2.75rem 0 1rem; }
+h3 { font-size: 1.05rem; margin: 2rem 0 0.65rem; }
+p { margin: 0 0 1.25rem; }
+.house-flows { display: flex; flex-direction: column; align-items: center; gap: 48px; }
+.house-flow-section { width: 240px; max-width: 100%; text-align: center; }
+.house-flow-section h2 { margin: 0 0 1rem; }
+.house-flow { width: 240px; max-width: 100%; text-align: center; }
+.house-flow-node { border: 1px solid currentColor; padding: 12px 18px; line-height: 1.5; }
+.house-flow-red { background: #a83232; color: #fff8ee; border-color: #302a23; }
+.house-flow-arrow { font-size: 1.5rem; line-height: 1; padding: 10px 0; }
+.house-flow-section-wide, .house-flow-branched { width: 100%; }
+.house-flow-centered { width: 240px; max-width: 100%; margin: 0 auto; }
+.house-flow-connectors { display: block; width: 100%; height: 90px; }
+.house-flow-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 12px; }
+.house-flow-row > .house-flow-node { display: flex; flex-direction: column; justify-content: center; padding: 12px 6px; overflow-wrap: anywhere; }
+@media (max-width: 760px) {
+  .layout { display: block; }
+  nav { position: static; padding: 28px 32px 0; }
+  nav > a { margin-bottom: 0.65rem; }
+  nav > ul { display: flex; flex-wrap: wrap; column-gap: 1.25rem; row-gap: 0.4rem; }
+  nav li { margin: 0; }
+  main { padding-top: 36px; }
+}
+@media (max-width: 540px) {
+  body { font-size: 17px; }
+  nav { padding: 24px 22px 0; }
+  main { padding: 32px 22px 64px; }
+  h1 { font-size: 1.8rem; }
+}
+
+.house-flow-inner-arrow { display: block; font-size: 1.3rem; line-height: 1; padding: 5px 0; }
+
+.avatar-levels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.avatar-level { border: 1px solid currentColor; padding: 16px 8px; text-align: center; }
+
+.avatar-level-red { background: #a83232; color: #fff8ee; border-color: #302a23; }
+
+.garrison-grid { display: flex; flex-direction: column; gap: 16px; }
+.garrison-row { display: flex; justify-content: center; gap: 16px; }
+.garrison-box { position: relative; width: calc((100% - 48px) / 4); max-width: 120px; aspect-ratio: 1; border: 1px solid currentColor; display: flex; align-items: center; justify-content: center; padding: 24px 4px 10px; }
+.garrison-number { position: absolute; top: 4px; left: 7px; font-size: 12px; line-height: 1.4; }
+.garrison-content { min-width: 0; text-align: center; line-height: 1.5; }
+.garrison-name { font-size: clamp(11px, 2.4vw, 16px); overflow-wrap: anywhere; }
+.garrison-detail { font-size: clamp(9px, 2vw, 12px); margin-top: 4px; overflow-wrap: anywhere; }
+
+.garrison-red { background: #a83232; color: #fff8ee; border-color: #302a23; }
+.garrison-yellow { background: #f0d56c; color: #302a23; border-color: #302a23; }
+.garrison-green { background: #42734b; color: #fff8ee; border-color: #302a23; }
+
+.religion-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 16px; }
+.religion-box { border: 1px solid #302a23; padding: 18px 20px; text-align: center; }
+.religion-green { background: #42734b; color: #fff8ee; }
+.religion-red { background: #a83232; color: #fff8ee; }
+.religion-yellow { background: #f0d56c; color: #302a23; }
+
+.festival-scoreboard { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 16px; }
+.festival-box { border: 1px solid currentColor; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.festival-competitor { min-width: 0; overflow-wrap: anywhere; }
+.festival-house { font-weight: bold; }
+.festival-name { margin-top: 4px; }
+.festival-race { font-size: 0.8em; }
+.festival-score { font-size: 1.5rem; text-align: center; flex-shrink: 0; }
+.festival-score-label { display: block; font-size: 12px; }
+.festival-events { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 16px; }
+.festival-event { border: 1px solid #302a23; padding: 16px 20px; }
+.festival-event-yellow { background: #f0d56c; color: #302a23; }
+
+.refugee-boxes { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.refugee-box { aspect-ratio: 1; border: 1px solid #302a23; background: #fff; }
+.refugee-box-red { background: #a83232; }
+.refugee-box-yellow { background: #f0d56c; }
+
+.fireholder-labels { display: flex; justify-content: space-between; margin-bottom: 12px; }
