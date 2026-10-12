@@ -86,3 +86,5 @@ p { margin: 0 0 1.25rem; }
 .refugee-box-yellow { background: #f0d56c; }
 
 .fireholder-labels { display: flex; justify-content: space-between; margin-bottom: 12px; }
+
+.alayanta-helper { font-size: 0.8em; }
